@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'ghasem' ;
+    src: url(font/AGhasem.ttf);
+}
+@font-face {
+    font-family: 'bird' ;
+    src: url(font/FontsFree-Net-Clock-Bird.ttf);
+}
+@font-face {
+    font-family: 'nexa';
+    src: url(font/Nexa\ Bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --oxford-blue: hsla(221, 51%, 16%, 1);
+    --orange-web: hsla(37, 98%, 53%, 1);
+    --platinum: hsla(0, 0%, 90%, 1);
+}
+.up{
+    width: 100%;
+    height: 50vh;
+    background-color: var(--orange-web);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: nexa;
+    font-size: 80px;
+    color: var(--oxford-blue);
+}
+.down{
+    width: 100%;
+    height: 50vh;
+    background-color: var(--oxford-blue);
+}
+.image{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myimg{
+    height: 82%;
+    width: auto;
+    border-radius: 50%;
+}
+.name{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name p{
+    font-family: nexa;
+    font-size: 37px;
+    color: var(--orange-web);
+}
+.job{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.job p{
+    color: var(--platinum);
+    font-family: nexa;
+    font-size: 20px;
+}
